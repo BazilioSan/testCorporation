@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "testcorp"
+version = "0.1.0"
+description = ""
+authors = ["Alexandr <blix@list.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.7"
+djangorestframework = "^3.15.2"
+pillow = "^11.1.0"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.lint.dependencies]
+flake8 = "^7.1.2"
+isort = "^6.0.1"
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
